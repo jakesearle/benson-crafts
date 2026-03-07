@@ -4,7 +4,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Benson Crafts Group",
   description: "A craft circle hosted in Benson, North Carolina",
-  base: '/benson-crafts/', // TODO:: Change me when  
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
