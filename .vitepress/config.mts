@@ -2,27 +2,45 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Benson Crafts Group",
+  title: "Benson Craft Circle",
   description: "A craft circle hosted in Benson, North Carolina",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      // { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Calendar', link: '/calendar' },
+      { text: 'Contact', link: '/contact' },
+      { text: 'FAQ', link: '/faq' },
+      { text: 'About', link: '/about' },
     ],
-
-    // sidebar: [
-    //   {
-    //     text: 'Examples',
-    //     items: [
-    //       { text: 'Markdown Examples', link: '/markdown-examples' },
-    //       { text: 'Runtime API Examples', link: '/api-examples' }
-    //     ]
-    //   }
-    // ],
+    // outline: false,
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'facebook', link: 'https://www.facebook.com/groups/895094962977446' }, // TODO:: replace my link
+      { icon: 'ravelry', link: 'https://www.ravelry.com/' }, // TODO:: replace this link
+      { icon: 'gitbook', link: 'https://www.townofbenson.com/2170/Library' } // TODO:: replace this link
+    ],
+    footer: {
+      message: 'Made with love in Benson, NC · Benson Craft Circle',
+      // copyright: 'Copyright © 2019-present Evan You' // TODO:: Do i have copywrite?
+    }
+  },
+  transformHead({ assets }) {
+    // adjust the regex accordingly to match your font
+    const myFontFile = assets.find(file => /font-name\.[\w-]+\.woff2/.test(file))
+    if (myFontFile) {
+      return [
+        [
+          'link',
+          {
+            rel: 'preload',
+            href: myFontFile,
+            as: 'font',
+            type: 'font/woff2',
+            crossorigin: ''
+          }
+        ]
+      ]
+    }
   }
 })

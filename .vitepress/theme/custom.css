@@ -1,0 +1,47 @@
+:root {
+    --bcc-cream: #fdf6ec;
+    --bcc-warm: #f5e6d0;
+    --bcc-tan: #d4a96a;
+    --bcc-brown: #7a4f2e;
+    --bcc-dark: #3b2410;
+    --bcc-rose: #c97b6b;
+    --bcc-sage: #7a9e7e;
+}
+
+:root {
+    /* Brand colors */
+    --vp-c-brand-1: var(--bcc-brown);
+    /* links, active states */
+    --vp-c-brand-2: var(--bcc-tan);
+    /* hover states */
+    --vp-c-brand-3: var(--bcc-rose);
+    /* soft accent */
+
+    /* Backgrounds */
+    --vp-c-bg: var(--bcc-cream);
+    /* main page background */
+    --vp-c-bg-soft: var(--bcc-warm);
+    /* card / soft section background */
+    --vp-c-bg-mute: #ede0cc;
+    /* muted background */
+
+    /* Text */
+    --vp-c-text-1: var(--bcc-dark);
+    /* primary text */
+    --vp-c-text-2: var(--bcc-brown);
+    /* secondary text */
+    --vp-c-text-3: var(--bcc-tan);
+    /* tertiary / muted text */
+
+    /* Borders */
+    --vp-c-divider: rgba(212, 169, 106, 0.35);
+    --vp-c-border: rgba(212, 169, 106, 0.5);
+
+    /* Buttons */
+    --vp-button-brand-bg: var(--bcc-brown);
+    --vp-button-brand-hover-bg: var(--bcc-dark);
+    --vp-button-brand-text: var(--bcc-cream);
+
+
+    --vp-home-hero-name-color: var(--bcc-dark);
+}
