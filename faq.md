@@ -32,7 +32,7 @@ Bring your own project to work on! But if you forget something, most group membe
 
 <br>
 
-> Can I work on something other than knitting or crochet? Can I work on cross-stitching, wood carving, spinning, etc.?
+> Can I work on something other than knitting or crochet? Can I work on cross-stitching, needlepoint, spinning, etc.?
 
 Sure! We normally sit around a table, so if you need an electrical outlet, you'll have to sit slightly apart from the group.
 
@@ -43,8 +43,6 @@ Sure! We normally sit around a table, so if you need an electrical outlet, you'l
 5-15 people most weeks
 
 <br>
-
-Do you do group projects, swaps, or challenges?
 
 > Is there a way to stay in touch between meetings (social media, group chat, etc.)?
 
