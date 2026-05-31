@@ -24,7 +24,6 @@ export default defineConfig({
     ],
     footer: {
       message: 'Made with ♥ in Benson, NC · Benson Craft Circle',
-      // copyright: 'Copyright © 2019-present Evan You' // TODO:: Do i have copyright?
     }
   },
   transformHead({ assets }) {

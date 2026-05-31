@@ -4,7 +4,7 @@
 
 Most park out front, since it's near the entrance, but there's a parking lot as well.
 
-![](parking.png)
+![](/parking.png)
 
 <br>
 
