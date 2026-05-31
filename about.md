@@ -1,7 +1,5 @@
 # About
 
-TODO:: Write an about
+In December 2025, Kierra, Jake, and Mandy were looking for other Benson-ites to hang out and crochet together with.
 
-Laudantium molestias delectus vel totam iste est optio suscipit. Dolorem consectetur consequuntur vel. Dolorum modi itaque consequatur ipsam voluptas beatae. Asperiores dicta nisi omnis.
-
-Quo aliquid et eligendi aut labore corrupti delectus molestiae. Consequatur optio accusamus et corrupti iste. Quis sit doloribus laborum rerum consequatur vel quidem blanditiis.
+With the help of the Benson area library, we got a place to meet, and we've been meeting every other week since then.

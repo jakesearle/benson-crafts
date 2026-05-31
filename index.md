@@ -15,8 +15,7 @@ hero:
 features:
   - icon: 🗓️
     title: 11AM-1PM every other Saturday
-    # todo:: test me
-    details: <a href="geo:0,0?q=319 S Elm St, Benson, NC, United States"> 319 S Elm Street, Benson, North Carolina</a>
+    details: <a href="https://maps.app.goo.gl/5foZm8RGnRbCAttB7">319 S Elm St, Benson, NC 27504</a>
 ---
 
 <style>

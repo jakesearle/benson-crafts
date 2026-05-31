@@ -4,6 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Benson Craft Circle",
   description: "A craft circle hosted in Benson, North Carolina",
+  appearance: false,
+  cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -16,13 +18,13 @@ export default defineConfig({
     // outline: false,
 
     socialLinks: [
-      { icon: 'facebook', link: 'https://www.facebook.com/groups/895094962977446' }, // TODO:: replace my link
       { icon: 'ravelry', link: 'https://www.ravelry.com/' }, // TODO:: replace this link
-      { icon: 'gitbook', link: 'https://www.townofbenson.com/2170/Library' } // TODO:: replace this link
+      { icon: 'facebook', link: 'https://www.facebook.com/groups/895094962977446' }, // TODO:: replace my link
+      { icon: 'gitbook', link: 'https://www.townofbenson.com/2170/Library' }
     ],
     footer: {
-      message: 'Made with love in Benson, NC · Benson Craft Circle',
-      // copyright: 'Copyright © 2019-present Evan You' // TODO:: Do i have copywrite?
+      message: 'Made with ♥ in Benson, NC · Benson Craft Circle',
+      // copyright: 'Copyright © 2019-present Evan You' // TODO:: Do i have copyright?
     }
   },
   transformHead({ assets }) {
